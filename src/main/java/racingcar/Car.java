@@ -31,9 +31,14 @@ public class Car {
 		return count;
 	}
 
+	
 	@Override
 	public String toString() {
-		return "Car [name=" + name + ", count=" + count + "]";
+		String note = "";
+		for(int i = 0 ; i < count ; i++) {
+			note += "-";
+		}
+		return name + " : " + note;
 	}
 
 	public void setCount(int count) {
