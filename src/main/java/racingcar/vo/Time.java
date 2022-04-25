@@ -5,7 +5,6 @@ public class Time {
 	private int value;
 
 	public Time(int value) {
-		super();
 		this.value = value;
 	}
 

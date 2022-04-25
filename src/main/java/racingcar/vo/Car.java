@@ -33,7 +33,6 @@ public class Car {
 
 	@Override
 	public String toString() {
-
 		return this.name.getValue() + " : " + this.count.getNote();
 	}
 
